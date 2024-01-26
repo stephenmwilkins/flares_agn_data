@@ -1,0 +1,22 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: log10Lbol, unit: dex(erg / s), datatype: float64, description: log10(bolometric luminosity/erg/s)}
+# - {name: log10phi_10, unit: dex(1 / (dex Mpc3)), datatype: float64, description: 'log_{10}(\phi(10/Mpc^{-3}\ dex^{-1})'}
+# - {name: log10phi_9, unit: dex(1 / (dex Mpc3)), datatype: float64, description: 'log_{10}(\phi(9/Mpc^{-3}\ dex^{-1})'}
+# - {name: log10phi_8, unit: dex(1 / (dex Mpc3)), datatype: float64, description: 'log_{10}(\phi(8/Mpc^{-3}\ dex^{-1})'}
+# - {name: log10phi_7, unit: dex(1 / (dex Mpc3)), datatype: float64, description: 'log_{10}(\phi(7/Mpc^{-3}\ dex^{-1})'}
+# - {name: log10phi_6, unit: dex(1 / (dex Mpc3)), datatype: float64, description: 'log_{10}(\phi(6/Mpc^{-3}\ dex^{-1})'}
+# - {name: log10phi_5, unit: dex(1 / (dex Mpc3)), datatype: float64, description: 'log_{10}(\phi(5/Mpc^{-3}\ dex^{-1})'}
+# meta: !!omap
+# - {name: FLARES}
+# - references: []
+# schema: astropy-2.0
+log10Lbol log10phi_10 log10phi_9 log10phi_8 log10phi_7 log10phi_6 log10phi_5
+45.1 -5.4 -5.75 -6.63 -5.75 -5.16 -4.6
+45.3 -6.75 -6.68 -6.17 -5.63 -4.76 -4.34
+45.5 -6.9 -6.09 -6.38 -5.63 -5.83 -5.04
+45.7 -inf -inf -6.75 -6.05 -5.81 -5.36
+45.9 -inf -7.18 -7.28 -6.71 -7.04 -6.51
+46.1 -inf -inf -7.45 -6.2 -6.34 -6.36
+46.3 -inf -7.22 -5.42 -7.45 -6.29 -4.98
